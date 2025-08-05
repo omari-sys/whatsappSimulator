@@ -55,7 +55,7 @@ function createInteractiveMessage(id, title, type = 'list_reply') {
   };
 }
 
-// Function to send message to Dor app
+// Function to send message to Dor app 
 async function sendToDorApp(message) {
   try {
     console.log(`📤 Sending to Dor app: ${JSON.stringify(message)}`);
