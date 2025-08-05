@@ -1,0 +1,26 @@
+{
+  "name": "dor-test-server",
+  "version": "1.0.0",
+  "description": "Test server to simulate WhatsApp and test Dor app responses",
+  "main": "test-server.js",
+  "scripts": {
+    "start": "node test-server.js",
+    "dev": "nodemon test-server.js",
+    "test": "node test-runner.js",
+    "e2e": "node run-e2e.js",
+    "e2e:test": "node e2e-test.js",
+    "test:phone": "node test-phone-endpoint.js"
+  },
+  "keywords": ["test", "whatsapp", "simulation"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "body-parser": "^1.20.2",
+    "@supabase/supabase-js": "^2.38.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+} 
